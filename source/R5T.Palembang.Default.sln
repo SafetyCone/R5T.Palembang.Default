@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dacia.Extensions", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dacia", "..\..\R5T.Dacia\source\R5T.Dacia\R5T.Dacia.csproj", "{848B123D-6B54-4777-9442-7A430E93337E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Angleterria", "..\..\R5T.Angleterria\source\R5T.Angleterria\R5T.Angleterria.csproj", "{DA36C664-3F53-4E5A-AAAF-909BE5B61E7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,18 @@ Global
 		{848B123D-6B54-4777-9442-7A430E93337E}.Release|x64.Build.0 = Release|Any CPU
 		{848B123D-6B54-4777-9442-7A430E93337E}.Release|x86.ActiveCfg = Release|Any CPU
 		{848B123D-6B54-4777-9442-7A430E93337E}.Release|x86.Build.0 = Release|Any CPU
+		{DA36C664-3F53-4E5A-AAAF-909BE5B61E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA36C664-3F53-4E5A-AAAF-909BE5B61E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA36C664-3F53-4E5A-AAAF-909BE5B61E7E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DA36C664-3F53-4E5A-AAAF-909BE5B61E7E}.Debug|x64.Build.0 = Debug|Any CPU
+		{DA36C664-3F53-4E5A-AAAF-909BE5B61E7E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DA36C664-3F53-4E5A-AAAF-909BE5B61E7E}.Debug|x86.Build.0 = Debug|Any CPU
+		{DA36C664-3F53-4E5A-AAAF-909BE5B61E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA36C664-3F53-4E5A-AAAF-909BE5B61E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA36C664-3F53-4E5A-AAAF-909BE5B61E7E}.Release|x64.ActiveCfg = Release|Any CPU
+		{DA36C664-3F53-4E5A-AAAF-909BE5B61E7E}.Release|x64.Build.0 = Release|Any CPU
+		{DA36C664-3F53-4E5A-AAAF-909BE5B61E7E}.Release|x86.ActiveCfg = Release|Any CPU
+		{DA36C664-3F53-4E5A-AAAF-909BE5B61E7E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,6 +107,7 @@ Global
 		{895197EB-F7F0-4709-8CF7-2D8AB19F3701} = {0B26448A-3E44-4D5A-8D8E-C1213707B165}
 		{DEBA5665-8B68-4762-B1DC-C6B9822E0C0D} = {0B26448A-3E44-4D5A-8D8E-C1213707B165}
 		{848B123D-6B54-4777-9442-7A430E93337E} = {0B26448A-3E44-4D5A-8D8E-C1213707B165}
+		{DA36C664-3F53-4E5A-AAAF-909BE5B61E7E} = {0B26448A-3E44-4D5A-8D8E-C1213707B165}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6BD8D7EA-BA29-467E-9637-D6B385E4C01D}
