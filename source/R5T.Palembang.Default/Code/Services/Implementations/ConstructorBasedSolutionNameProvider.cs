@@ -1,14 +1,18 @@
-﻿using System;
+using System;
+
+using R5T.T0064;
 
 
 namespace R5T.Palembang.Default
 {
-    public class ConstructorBasedSolutionNameProvider : ISolutionNameProvider
+    [ServiceImplementationMarker]
+    public class ConstructorBasedSolutionNameProvider : ISolutionNameProvider, IServiceImplementation
     {
         private string SolutionName { get; }
 
 
-        public ConstructorBasedSolutionNameProvider(string solutionName)
+        public ConstructorBasedSolutionNameProvider(
+            [NotServiceComponent] string solutionName)
         {
             this.SolutionName = solutionName;
         }

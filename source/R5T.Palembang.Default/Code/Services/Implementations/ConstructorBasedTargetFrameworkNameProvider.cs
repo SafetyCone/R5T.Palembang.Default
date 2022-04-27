@@ -1,14 +1,18 @@
-﻿using System;
+using System;
+
+using R5T.T0064;
 
 
 namespace R5T.Palembang.Default
 {
-    public class ConstructorBasedTargetFrameworkNameProvider : ITargetFrameworkNameProvider
+    [ServiceImplementationMarker]
+    public class ConstructorBasedTargetFrameworkNameProvider : ITargetFrameworkNameProvider, IServiceImplementation
     {
         private string TargetFrameworkName { get; set; }
 
 
-        public ConstructorBasedTargetFrameworkNameProvider(string targetFrameworkName)
+        public ConstructorBasedTargetFrameworkNameProvider(
+            [NotServiceComponent] string targetFrameworkName)
         {
             this.TargetFrameworkName = targetFrameworkName;
         }

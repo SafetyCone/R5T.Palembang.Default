@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Palembang.Default
-{
-    public class StaticValueBuildConfigurationNameProvider : IBuildConfigurationNameProvider
+{[ServiceImplementationMarker]
+    public class StaticValueBuildConfigurationNameProvider : IBuildConfigurationNameProvider,IServiceImplementation
     {
         public static string BuildConfigurationName { get; set; }
 

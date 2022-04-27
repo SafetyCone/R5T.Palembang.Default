@@ -1,14 +1,18 @@
-﻿using System;
+using System;
+
+using R5T.T0064;
 
 
 namespace R5T.Palembang.Default
 {
-    public class ConstructorBasedBuildConfigurationNameProvider : IBuildConfigurationNameProvider
+    [ServiceImplementationMarker]
+    public class ConstructorBasedBuildConfigurationNameProvider : IBuildConfigurationNameProvider , IServiceImplementation
     {
         private string BuildConfigurationName { get; }
 
 
-        public ConstructorBasedBuildConfigurationNameProvider(string buildConfigurationName)
+        public ConstructorBasedBuildConfigurationNameProvider(
+            [NotServiceComponent] string buildConfigurationName)
         {
             this.BuildConfigurationName = buildConfigurationName;
         }

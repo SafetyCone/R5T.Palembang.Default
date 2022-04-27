@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 
-using R5T.Angleterria;
+using R5T.Angleterria;using R5T.T0064;
 
 
 namespace R5T.Palembang.Default
-{
-    public class NetCoreApp22TargetFrameworkNameProvider : ITargetFrameworkNameProvider
+{[ServiceImplementationMarker]
+    public class NetCoreApp22TargetFrameworkNameProvider : ITargetFrameworkNameProvider,IServiceImplementation
     {
         public string GetTargetFrameworkName()
         {

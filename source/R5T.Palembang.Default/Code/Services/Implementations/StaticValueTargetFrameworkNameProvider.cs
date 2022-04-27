@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Palembang.Default
-{
-    public class StaticValueTargetFrameworkNameProvider : ITargetFrameworkNameProvider
+{[ServiceImplementationMarker]
+    public class StaticValueTargetFrameworkNameProvider : ITargetFrameworkNameProvider,IServiceImplementation
     {
         public static string TargetFrameworkName { get; set; }
 

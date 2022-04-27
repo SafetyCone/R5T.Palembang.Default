@@ -1,14 +1,18 @@
-﻿using System;
+using System;
+
+using R5T.T0064;
 
 
 namespace R5T.Palembang.Default
 {
-    public class ConstructorBasedProjectNameProvider : IProjectNameProvider
+    [ServiceImplementationMarker]
+    public class ConstructorBasedProjectNameProvider : IProjectNameProvider, IServiceImplementation
     {
         private string ProjectName { get; }
 
 
-        public ConstructorBasedProjectNameProvider(string projectName)
+        public ConstructorBasedProjectNameProvider(
+            [NotServiceComponent] string projectName)
         {
             this.ProjectName = projectName;
         }
